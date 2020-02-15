@@ -18,12 +18,15 @@ useEffect(() => {
 }, [])
 
     return (
+    <>
+      <div className="list-content"></div>
         <ul>
           {locations.map(location => (
             <Card key={location.name}  location={location}/>
           )
        
         )}</ul>
+    </>
       );
 }
 
