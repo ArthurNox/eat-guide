@@ -1,8 +1,10 @@
 import React from 'react';
+import List from './components/List'
 
 function App() {
+
   return (
-    <h1>Hellow</h1>
+    <List />
   );
 }
 
