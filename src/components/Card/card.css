@@ -1,6 +1,4 @@
-import styled from 'styled-components';
-
-export const Restaurant = styled.article`
+.card-content{
   top: 159px;
   left: 24px;
   width: 254px;
@@ -11,19 +9,20 @@ export const Restaurant = styled.article`
   border-radius: 8px;
   opacity: 1;
 
-  h3 {
-    text-align: left;
+}
+
+h3 {
+  text-align: left;
     font: Bold 16px/10px Poppins;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
-  }
+}
 
-  p {
-    text-align: left;
-    font: Light 16px/10px Nunito Sans;
-    letter-spacing: 0;
-    color: #FFFFFF;
-    opacity: 1;
-  }
-`;
+p {
+  text-align: left;
+  font: Light 16px/10px Nunito Sans;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}

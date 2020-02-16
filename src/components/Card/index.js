@@ -1,6 +1,7 @@
 import React from 'react';
-import { Restaurant } from './styles'
+//import { Restaurant } from './styles'
 import { ButtonPlus } from '../ButtonPlus/styles'
+import "./card.css"
 // import { Container } from './styles';
 
 export default function Card(props) {
@@ -8,13 +9,11 @@ export default function Card(props) {
 
 
   return (
-    <>
-      <Restaurant>
+    <div className="card-content">    
         <h3>{location.name}</h3>
         <p>Pratos {location.menuItens.length}</p>
-      </Restaurant>
       <ButtonPlus />
-    </>
+    </div>
   );
 }
 

@@ -1,24 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
-import api from '../../services/Api';
 import Card from '../Card';
 
 
-function List (){
-
-const [locations, setLocations] = useState([])
-
-useEffect(() => {
-  async function loadLocations() {
-    const res = await api.get('/locations')
-
-    setLocations(res.data)
-  }
-
-  loadLocations()
+function List (props){
+  const { locations } = props;
   
-}, [])
-
     return (
     <>
       <div className="list-content"></div>

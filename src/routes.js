@@ -3,13 +3,15 @@ import { Switch, Route } from 'react-router-dom'
 
 import Home from './pages/Home'
 import Detail from './pages/Detail'
+import Form from './pages/Form'
 
 export default function Routes() {
   return (
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/home" exact component={Home} />
-        <Route path="/menus" component={Detail} />
+        <Route path="/detail" component={Detail} />
+        <Route path="/form" component={Form} />
     </Switch>
   )
 }
