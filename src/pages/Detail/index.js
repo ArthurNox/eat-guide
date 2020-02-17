@@ -1,5 +1,5 @@
 import React from 'react';
-import { BackButton } from '../../components/BackButton/styles';
+import { MdKeyboardArrowLeft } from "react-icons/md";
 import { Link } from "react-router-dom"
 import CardDetail from '../../components/CardDetail'
 import './detail.css'
@@ -35,12 +35,13 @@ export default function Detail(props) {
     <div className="detail">
       <div className="top-detail">
       <Link to="/home">
-        <BackButton />
+        <MdKeyboardArrowLeft />
       </Link>
         <img src={logo} alt="Logo" />;
       </div>
       <div className="detail-content">
         <h1>{mocks.name}</h1>
+        <p>{mocks.menuItens.length} Pratos</p>
         <CardDetail  location={mocks}/>
         
       </div>

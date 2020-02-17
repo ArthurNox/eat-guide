@@ -1,12 +1,8 @@
 import React from 'react';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import { IoIosAddCircleOutline } from "react-icons/io";
-// import { Restaurant } from './styles'
 
-
-import { ButtonPlus } from '../ButtonPlus/styles'
-import "./card.css"
-// import { Container } from './styles';
+import "./card.css";
 
 export default function Card(props) {
   const { location } = props;

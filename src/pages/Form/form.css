@@ -1,0 +1,59 @@
+.form p {
+  top: 136px;
+  left: 27px;
+  /* width: 97px; */
+  height: 19px;
+  text-align: left;
+  font: Bold 14px/19px Nunito Sans;
+  letter-spacing: 0;
+  color: #FFFFFFDE;
+  opacity: 1;
+}
+
+.form h1 {
+  top: 63px;
+  left: 24px;
+  width: 250px;
+  /* height: 51px; */
+  text-align: left;
+  font: Bold 36px/40px Poppins!important;
+  letter-spacing: 0.36px;
+  color: #F3AA00;
+  opacity: 1;
+}
+
+.form svg{
+  color: #FFFFFF98;
+  top: 270px;
+  left: 298px;
+  width: 36px;
+  height: 36px;
+  opacity: 1;
+  margin-left: 15px;
+}
+
+.form input {
+  top: 236px;
+  left: 25px;
+  width: 111px;
+  height: 38px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #DEDEDF;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.form textarea {
+  top: 313px;
+  left: 25px;
+  width: 311px;
+  height: 136px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #DEDEDF;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.food-name input {
+  width: 311px!important;
+}

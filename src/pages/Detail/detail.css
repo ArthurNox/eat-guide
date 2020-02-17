@@ -15,3 +15,25 @@
   opacity: 1;
   padding: 20px;
 }
+
+.detail svg{
+  color: #FFFFFF98;
+  top: 270px;
+  left: 298px;
+  width: 36px;
+  height: 36px;
+  opacity: 1;
+  margin-left: 15px;
+}
+
+.detail p {
+  top: 120px;
+  left: 24px;
+  width: 190px;
+  /* height: 23px; */
+  text-align: left;
+  font: Light 16px/10px Nunito Sans!important;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}

@@ -15,6 +15,7 @@
 
 .card {
   display: flex;
+  align-items: center;
   margin-top: 20px;
 }
 
@@ -42,6 +43,6 @@
   left: 298px;
   width: 36px;
   height: 36px;
-  border: 1px solid #FFFFFF98;
   opacity: 1;
+  margin-left: 15px;
 }
