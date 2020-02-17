@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import './home.css';
 
 import api from '../../services/Api';
 import List from '../../components/List';
-import './home.css';
+import logo from '../../assets/logo.svg';
+
 
 // import { Container } from './styles';
 
@@ -23,7 +25,7 @@ export default function Home() {
 
   return (
     <div classname="home-content">
-      <h2>Share Eat</h2>
+      <img src={logo} alt="Logo" />;
       <List locations={locations}/>
     </div>
 

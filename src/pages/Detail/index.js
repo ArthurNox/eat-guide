@@ -1,7 +1,9 @@
 import React from 'react';
-// import { BackButton } from '../../components/BackButton/styles';
+import { BackButton } from '../../components/BackButton/styles';
+import './detail.css'
 
 // import { Container } from './styles';
+import logo from '../../assets/logo.svg';
 
 export default function Detail(props) {
   
@@ -31,16 +33,18 @@ export default function Detail(props) {
 
   return (
     <div className="detail">
-      <h2>Share Eat</h2>
-      <div className="detail-content">
-        <h1>{mocks.name}</h1>
-        {mock.map(un => (
-            <h3>{un.name}</h3>
-            
-
-          ))}
+      <div className="top-detail">
+        <BackButton />
+        <img src={logo} alt="Logo" />;
       </div>
+        <div className="detail-content">
+          <h1>{mocks.name}</h1>
+          {mock.map(un => (
+              <h3>{un.name}</h3>
+              
 
+            ))}
+        </div>
     </div>
   );
 }
