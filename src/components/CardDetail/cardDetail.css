@@ -1,0 +1,37 @@
+.cardDetail-content{
+  top: 159px;
+left: 24px;
+width: 312px;
+height: 127px;
+background: #464646 0% 0% no-repeat padding-box;
+box-shadow: 0px 4px 16px #00000029;
+border-radius: 8px;
+opacity: 1;
+
+}
+
+.name-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px 0px 20px;
+}
+
+.foodDescription{
+  
+}
+
+h3 {
+  
+}
+
+.cardDetail p {
+  top: 203px;
+  left: 43px;
+  width: 272px;
+  height: 73px;
+  text-align: left;
+  font: Light 16px/20px Nunito Sans;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}

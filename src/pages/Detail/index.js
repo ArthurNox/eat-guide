@@ -1,5 +1,7 @@
 import React from 'react';
 import { BackButton } from '../../components/BackButton/styles';
+import { Link } from "react-router-dom"
+import CardDetail from '../../components/CardDetail'
 import './detail.css'
 
 // import { Container } from './styles';
@@ -7,7 +9,7 @@ import logo from '../../assets/logo.svg';
 
 export default function Detail(props) {
   
-  // const { location } = props;
+  //  const { location } = props;
   const mocks = {
     "name": "Silva Lanches",
     "menuItens": [
@@ -28,23 +30,20 @@ export default function Detail(props) {
       }
     ]
   } 
-  const mock = mocks.menuItens;
-  console.log('MOCKS', mock)
 
   return (
     <div className="detail">
       <div className="top-detail">
+      <Link to="/home">
         <BackButton />
+      </Link>
         <img src={logo} alt="Logo" />;
       </div>
-        <div className="detail-content">
-          <h1>{mocks.name}</h1>
-          {mock.map(un => (
-              <h3>{un.name}</h3>
-              
-
-            ))}
-        </div>
+      <div className="detail-content">
+        <h1>{mocks.name}</h1>
+        <CardDetail  location={mocks}/>
+        
+      </div>
     </div>
   );
 }

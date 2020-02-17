@@ -10,7 +10,7 @@ export default function Routes() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/home" exact component={Home} />
-        <Route path="/detail" component={Detail} />
+        <Route path="/detail" component={Detail} render={props => <Home />} name="Tulio" />
         <Route path="/form" component={Form} />
     </Switch>
   )

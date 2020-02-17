@@ -24,8 +24,8 @@ export default function Home() {
 
 
   return (
-    <div classname="home-content">
-      <img src={logo} alt="Logo" />;
+    <div className="home-content">
+      <img src={logo} alt="Logo" />
       <List locations={locations}/>
     </div>
 
