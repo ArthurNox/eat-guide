@@ -41,10 +41,12 @@ export default function Form() {
         <p>Nomedo Prato</p>
         <input className="food-name"></input>
         <p>Valor</p>
-        <input ></input>
+        <input type="number"></input>
         <p>Descrição do Prato</p>
         <textarea></textarea>
         <p>*A descrição deve conter até 200 caracteres.</p>
+
+        <button className="save-button">Salvar</button>
       </section>
     </div>
   );

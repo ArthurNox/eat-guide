@@ -6,8 +6,7 @@
   background: #464646 0% 0% no-repeat padding-box;
   box-shadow: 0px 4px 16px #00000029;
   border-radius: 8px;
-  border-style: solid;
-  border-left-color: #F3AA00;
+  border-left: 5px solid #F3AA00;
   opacity: 1;
   margin: 10px 5px 5px 0px;
 }
@@ -36,5 +35,17 @@
   font: Light 16px/20px Nunito Sans !important;
   letter-spacing: 0;
   color: #FFFFFF;
+  opacity: 1;
+}
+
+.cardDetail svg{
+  color: #F3AA00;
+  top: 546px;
+  left: 272px;
+  width: 64px;
+  height: 64px;
+  opacity: 1;
+  margin-left: 15px;
+
   opacity: 1;
 }

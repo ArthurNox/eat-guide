@@ -54,6 +54,30 @@
   opacity: 1;
 }
 
-.food-name input {
-  width: 311px!important;
+input.food-name {
+  width: 311px;
+}
+
+.save-button {
+  top: 566px;
+  left: 25px;
+  width: 311px;
+  height: 42px;
+  background: #F3AA00 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+
+  text-align: center;
+  font: Bold 16px/25px Poppins;
+  letter-spacing: 0;
+  color: #121212;
+  opacity: 1;
+}
+
+.form header {
+  display: flex;
+  justify-content: flex-start;
+}
+.form img{
+  padding-left: 50px;
 }

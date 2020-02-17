@@ -37,7 +37,7 @@ export default function Detail(props) {
       <Link to="/home">
         <MdKeyboardArrowLeft />
       </Link>
-        <img src={logo} alt="Logo" />;
+        <img src={logo} alt="Logo" />
       </div>
       <div className="detail-content">
         <h1>{mocks.name}</h1>
