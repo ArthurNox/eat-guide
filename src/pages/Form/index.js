@@ -38,7 +38,7 @@ export default function Form() {
       </header>
       <h1>{mocks.name}</h1>
       <section className="form-content">
-        <p>Nomedo Prato</p>
+        <p>Nome do Prato</p>
         <input className="food-name"></input>
         <p>Valor</p>
         <input type="number"></input>

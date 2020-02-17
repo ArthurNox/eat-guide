@@ -29,6 +29,11 @@ export default createGlobalStyle`
     list-style: none;
   }
   
+  P{
+    font: Bold 14px/19px Nunito Sans;
+    letter-spacing: 0;
+  }
+  
   a{
     text-decoration: none;
   }
