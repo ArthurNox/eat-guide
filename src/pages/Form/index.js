@@ -3,7 +3,6 @@ import logo from '../../assets/logo.svg';
 import { Link } from "react-router-dom"
 
 import { BackButton } from '../../components/BackButton/styles';
-// import { Container } from './styles';
 
 export default function Form() {
 
@@ -20,7 +19,7 @@ export default function Form() {
       </Link>
         <img src={logo} alt="Logo" />
       </header>
-      <section ClassName="form-content">
+      <section className="form-content">
         <p>Nomedo Prato</p>
         <input ></input>
         <p>Valor</p>

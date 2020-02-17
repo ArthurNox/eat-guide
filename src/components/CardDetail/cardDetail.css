@@ -1,13 +1,13 @@
 .cardDetail-content{
   top: 159px;
-left: 24px;
-width: 312px;
-height: 127px;
-background: #464646 0% 0% no-repeat padding-box;
-box-shadow: 0px 4px 16px #00000029;
-border-radius: 8px;
-opacity: 1;
-
+  left: 24px;
+  width: 312px;
+  height: 127px;
+  background: #464646 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 16px #00000029;
+  border-radius: 8px;
+  opacity: 1;
+  margin: 10px 5px 5px 0px;
 }
 
 .name-price {
@@ -16,21 +16,22 @@ opacity: 1;
   padding: 5px 20px 0px 20px;
 }
 
-.foodDescription{
-  
+.name-price h3 {
+  width: auto;
+  text-align: left;
+  font: Bold 16px/10px Poppins;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
 }
 
-h3 {
-  
-}
-
-.cardDetail p {
+.foodDescription p {
   top: 203px;
   left: 43px;
   width: 272px;
   height: 73px;
   text-align: left;
-  font: Light 16px/20px Nunito Sans;
+  font: Light 16px/20px Nunito Sans !important;
   letter-spacing: 0;
   color: #FFFFFF;
   opacity: 1;

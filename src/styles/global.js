@@ -3,6 +3,8 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
 
   @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 
   * {
     box-sizing: border-box;
