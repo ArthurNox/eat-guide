@@ -31,7 +31,7 @@ export default createGlobalStyle`
 
   body {
     height: 100%!important;
-    background: #333 ;
+    background: #292929 ;
     -webkit-font-smoothing: antialiased;
   }
 

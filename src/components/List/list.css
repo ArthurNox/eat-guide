@@ -1,0 +1,23 @@
+h1 {
+  top: 63px;
+  left: 24px;
+  width: 150px;
+  height: 51px;
+  text-align: left;
+  font: Bold 36px/40px Poppins;
+  letter-spacing: 0.36px;
+  color: #F3AA00;
+  opacity: 1;
+}
+
+p {
+  top: 120px;
+  left: 24px;
+  width: 190px;
+  height: 23px;
+  text-align: left;
+  font: Light 16px/10px Nunito Sans;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}

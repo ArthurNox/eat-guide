@@ -22,9 +22,10 @@ export default function Home() {
 
 
   return (
-    <>
-      <h3>Share Eat</h3>
+    <div classname="home-content">
+      <h2>Share Eat</h2>
       <List locations={locations}/>
-    </>
+    </div>
+
   );
 }

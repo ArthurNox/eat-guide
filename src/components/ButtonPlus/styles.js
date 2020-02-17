@@ -8,4 +8,6 @@ export const ButtonPlus = styled.button`
   border-radius: 50%;
   border: 1px solid #FFFFFF98;
   opacity: 1;
+  align-self: center;
+  margin: auto;
 `;
