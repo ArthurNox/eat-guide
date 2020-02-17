@@ -6,4 +6,7 @@ Após baixar o projeto rodar o comando `npm install` para instalar as dependenci
 
 Então você pode rodar o comando `npm start`
 
+## Publicado
+
+Fiz algumas alteraões na branch 'prod' para poder publicar no endereço : https://eat-guide.now.sh/home
 
